@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Ayo 57 Hyper</title>
+    <style>
+        body {
+            background: url('https://d3dyak49qszsk5.cloudfront.net/Gripen2_652397ec3e.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+        }
+        header {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        header img {
+            width: 30px;
+            height: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            color: white;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+            transition: all 0.3s ease;
+        }
+        .sidebar:hover {
+            width: 300px;
+        }
+        .sidebar a {
+            display: block;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .sidebar a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+        .dashboard-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: calc(100% - 270px);
+            margin: 20px 20px 20px 270px;
+            animation: slideIn 1s;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .content h4 {
+            color: #0056b3;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(100%); }
+            to { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Flag_of_the_Free_Thai_Movement_%281941%E2%80%931945%29.png" alt="Thai Flag" class="logo">
+        Ayo 57 Hyper
+    </header>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <a href="#tanks">Tanks</a>
+        <a href="#intl-fighter-jets">International Fighter Jets</a>
+        <a href="#thai-fighter-jets">Thai Fighter Jets</a>
+    </div>
+    <div class="dashboard-container">
+        <h1>Welcome to the Military</h1>
+        <h2>Tanks and Fighter Jets by Ayo</h2>
+        
+        <div class="content" id="tanks">
+            <h3>Tanks</h3>
+            <h4>MBT-3000 (VT-4)</h4>
+            <p><strong>ผู้ผลิต:</strong> China North Industries Corporation (NORINCO)</p>
+            <p><strong>ปืนหลัก:</strong> 125mm smoothbore gun</p>
+            <p><strong>ระบบควบคุมอาวุธ:</strong> ระบบควบคุมอาวุธอิเล็กทรอนิกส์</p>
+            <p><strong>ระบบป้องกัน:</strong> ระบบป้องกันควัน และระบบป้องกันการโจมตีจากภัยคุกคามทางอากาศ</p>
+            <img src="https://c.files.bbci.co.uk/11CCA/production/_99760927_28124367629_f047fd646c_k.jpg" alt="MBT-3000 (VT-4)">
+            
+            <h4>M60A3</h4>
+            <p><strong>ผู้ผลิต:</strong> United States</p>
+            <p><strong>ปืนหลัก:</strong> 105mm rifled gun</p>
+            <p><strong>ระบบควบคุมอาวุธ:</strong> ระบบควบคุมอาวุธอิเล็กทรอนิกส์</p>
+            <p><strong>ระบบป้องกัน:</strong> ระบบป้องกันควัน และระบบป้องกันจากการโจมตีของขีปนาวุธ</p>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeoWLgw7PebPQx1XkCOIAeNgCmCD-Stdd1icdEyeevd8RSkp_BiIdhMVS3zVh8DrHxUYRKs_fj2cLkOJ2InvBa8cYURyfB7yMFT3T0ihbxFJXb8WNOYQXDXGnuA9ybXhkc1I7ewe6xlPj8leXjSE5B6gHQNTcBaCUMYzZUvS_xUgTklXgOjA6MUcvi/s2048/M60A3TTS%20CM21%20Taiwan-4.jpg" alt="M60A3">
+            
+            <h4>T-55</h4>
+            <p><strong>ผู้ผลิต:</strong> Soviet Union</p>
+            <p><strong>ปืนหลัก:</strong> 100mm rifled gun</p>
+            <p><strong>ระบบควบคุมอาวุธ:</strong> ระบบควบคุมอาวุธธรรมดา</p>
+            <p><strong>ระบบป้องกัน:</strong> ระบบป้องกันควัน</p>
+            <img src="https://armyrecognition.com/images/stories/east_europe/russia/main_battle_tank/t-55/T-55_Main_Battle_tank_MBT_russia_925_001.jpg" alt="T-55">
+        </div>
+
+        <div class="content" id="intl-fighter-jets">
+            <h3>International Fighter Jets</h3>
+            <h4>F-16 Fighting Falcon</h4>
+            <p><strong>ผู้ผลิต:</strong> Lockheed Martin, USA</p>
+            <p><strong>ประเภท:</strong> เครื่องบินรบหลายบทบาท</p>
+            <p><strong>ปีก:</strong> ปีกขนาดใหญ่พร้อมการปรับปรุง</p>
+            <p><strong>อาวุธ:</strong> ปืนกล 20mm, ขีปนาวุธล่องหน AIM-9 Sidewinder, AIM-120 AMRAAM</p>
+            <p><strong>ระบบอิเล็กทรอนิกส์:</strong> ระบบเรดาร์ APG-68</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRjMO_A20jqneCY9tgUR2kMiJU1JJiZyESsQ&s" alt="F-16 Fighting Falcon">
+            
+            <h4>Eurofighter Typhoon</h4>
+            <p><strong>ผู้ผลิต:</strong> Consortium of Airbus, BAE Systems, and Leonardo</p>
+            <p><strong>ประเภท:</strong> เครื่องบินรบหลายบทบาท</p>
+            <p><strong>ปีก:</strong> ปีกขนาดใหญ่และลักษณะพิเศษ</p>
+            <p><strong>อาวุธ:</strong> ปืนกล 27mm, ขีปนาวุธล่องหน AIM-120 AMRAAM, Storm Shadow</p>
+            <p><strong>ระบบอิเล็กทรอนิกส์:</strong> ระบบเรดาร์ CAPTOR-E</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg/1200px-RAF_Eurofighter_EF-2000_Typhoon_F2_Lofting-1.jpg" alt="Eurofighter Typhoon">
+            
+            <h4>Su-35</h4>
+            <p><strong>ผู้ผลิต:</strong> Sukhoi, Russia</p>
+            <p><strong>ประเภท:</strong> เครื่องบินรบหลายบทบาท</p>
+            <p><strong>ปีก:</strong> ปีกผีเสื้อ</p>
+            <p><strong>อาวุธ:</strong> ปืนกล 30mm, ขีปนาวุธ R-77, R-73</p>
+            <p><strong>ระบบอิเล็กทรอนิกส์:</strong> ระบบเรดาร์ CAPTOR-E</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUgmwzYFmrMmfRUo8JaO7Hb5FmT7ytlCbelQ&s">
